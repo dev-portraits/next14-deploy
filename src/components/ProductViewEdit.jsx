@@ -158,9 +158,6 @@ const ProductViewEdit = ({ params, mode }) => {
               <p className="text-lg mb-4 text-gray-700">
                 {productDetails?.description}
               </p>
-              {/* <p className="text-xl font-semibold text-gray-900">
-                Price: ${productDetails?.price?.toFixed(2) || "N/A"}
-              </p> */}
               <div className="mb-4">
                 <div className="flex items-baseline space-x-2">
                   <span className="text-red-600 font-bold text-xl">
